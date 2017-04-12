@@ -18,13 +18,13 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/docker/machine/drivers/driverutil"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/ssh"
-	"github.com/docker/machine/libmachine/state"
+	"github.com/michalmedvecky/machine/drivers/driverutil"
+	"github.com/michalmedvecky/machine/libmachine/drivers"
+	"github.com/michalmedvecky/machine/libmachine/log"
+	"github.com/michalmedvecky/machine/libmachine/mcnflag"
+	"github.com/michalmedvecky/machine/libmachine/mcnutils"
+	"github.com/michalmedvecky/machine/libmachine/ssh"
+	"github.com/michalmedvecky/machine/libmachine/state"
 )
 
 const (

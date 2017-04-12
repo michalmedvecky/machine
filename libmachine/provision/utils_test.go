@@ -6,13 +6,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/machine/drivers/fakedriver"
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/provision/pkgaction"
-	"github.com/docker/machine/libmachine/provision/provisiontest"
-	"github.com/docker/machine/libmachine/provision/serviceaction"
-	"github.com/docker/machine/libmachine/swarm"
+	"github.com/michalmedvecky/machine/drivers/fakedriver"
+	"github.com/michalmedvecky/machine/libmachine/auth"
+	"github.com/michalmedvecky/machine/libmachine/engine"
+	"github.com/michalmedvecky/machine/libmachine/provision/pkgaction"
+	"github.com/michalmedvecky/machine/libmachine/provision/provisiontest"
+	"github.com/michalmedvecky/machine/libmachine/provision/serviceaction"
+	"github.com/michalmedvecky/machine/libmachine/swarm"
 	"github.com/stretchr/testify/assert"
 )
 

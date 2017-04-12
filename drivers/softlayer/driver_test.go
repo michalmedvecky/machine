@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/machine/commands/commandstest"
-	"github.com/docker/machine/commands/mcndirs"
-	"github.com/docker/machine/libmachine/drivers"
+	"github.com/michalmedvecky/machine/commands/commandstest"
+	"github.com/michalmedvecky/machine/commands/mcndirs"
+	"github.com/michalmedvecky/machine/libmachine/drivers"
 	"github.com/stretchr/testify/assert"
 )
 

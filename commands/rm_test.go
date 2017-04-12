@@ -5,10 +5,10 @@ import (
 
 	"errors"
 
-	"github.com/docker/machine/commands/commandstest"
-	"github.com/docker/machine/drivers/fakedriver"
-	"github.com/docker/machine/libmachine/host"
-	"github.com/docker/machine/libmachine/libmachinetest"
+	"github.com/michalmedvecky/machine/commands/commandstest"
+	"github.com/michalmedvecky/machine/drivers/fakedriver"
+	"github.com/michalmedvecky/machine/libmachine/host"
+	"github.com/michalmedvecky/machine/libmachine/libmachinetest"
 	"github.com/stretchr/testify/assert"
 )
 

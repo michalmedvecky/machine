@@ -10,7 +10,7 @@ RUN go get  github.com/golang/lint/golint \
             golang.org/x/tools/cover
 
 ENV USER root
-WORKDIR /go/src/github.com/docker/machine
+WORKDIR /go/src/github.com/michalmedvecky/machine
 
 COPY . ./
 RUN mkdir bin

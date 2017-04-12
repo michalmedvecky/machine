@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/state"
+	"github.com/michalmedvecky/machine/libmachine/drivers"
+	"github.com/michalmedvecky/machine/libmachine/log"
+	"github.com/michalmedvecky/machine/libmachine/mcnflag"
+	"github.com/michalmedvecky/machine/libmachine/mcnutils"
+	"github.com/michalmedvecky/machine/libmachine/state"
 	"github.com/pyr/egoscale/src/egoscale"
 )
 

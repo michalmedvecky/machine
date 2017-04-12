@@ -8,27 +8,27 @@ import (
 	"path/filepath"
 
 	"github.com/codegangsta/cli"
-	"github.com/docker/machine/commands"
-	"github.com/docker/machine/commands/mcndirs"
-	"github.com/docker/machine/drivers/amazonec2"
-	"github.com/docker/machine/drivers/azure"
-	"github.com/docker/machine/drivers/digitalocean"
-	"github.com/docker/machine/drivers/exoscale"
-	"github.com/docker/machine/drivers/generic"
-	"github.com/docker/machine/drivers/google"
-	"github.com/docker/machine/drivers/hyperv"
-	"github.com/docker/machine/drivers/none"
-	"github.com/docker/machine/drivers/openstack"
-	"github.com/docker/machine/drivers/rackspace"
-	"github.com/docker/machine/drivers/softlayer"
-	"github.com/docker/machine/drivers/virtualbox"
-	"github.com/docker/machine/drivers/vmwarefusion"
-	"github.com/docker/machine/drivers/vmwarevcloudair"
-	"github.com/docker/machine/drivers/vmwarevsphere"
-	"github.com/docker/machine/libmachine/drivers/plugin"
-	"github.com/docker/machine/libmachine/drivers/plugin/localbinary"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/version"
+	"github.com/michalmedvecky/machine/commands"
+	"github.com/michalmedvecky/machine/commands/mcndirs"
+	"github.com/michalmedvecky/machine/drivers/amazonec2"
+	"github.com/michalmedvecky/machine/drivers/azure"
+	"github.com/michalmedvecky/machine/drivers/digitalocean"
+	"github.com/michalmedvecky/machine/drivers/exoscale"
+	"github.com/michalmedvecky/machine/drivers/generic"
+	"github.com/michalmedvecky/machine/drivers/google"
+	"github.com/michalmedvecky/machine/drivers/hyperv"
+	"github.com/michalmedvecky/machine/drivers/none"
+	"github.com/michalmedvecky/machine/drivers/openstack"
+	"github.com/michalmedvecky/machine/drivers/rackspace"
+	"github.com/michalmedvecky/machine/drivers/softlayer"
+	"github.com/michalmedvecky/machine/drivers/virtualbox"
+	"github.com/michalmedvecky/machine/drivers/vmwarefusion"
+	"github.com/michalmedvecky/machine/drivers/vmwarevcloudair"
+	"github.com/michalmedvecky/machine/drivers/vmwarevsphere"
+	"github.com/michalmedvecky/machine/libmachine/drivers/plugin"
+	"github.com/michalmedvecky/machine/libmachine/drivers/plugin/localbinary"
+	"github.com/michalmedvecky/machine/libmachine/log"
+	"github.com/michalmedvecky/machine/version"
 )
 
 var AppHelpTemplate = `Usage: {{.Name}} {{if .Flags}}[OPTIONS] {{end}}COMMAND [arg...]
@@ -97,7 +97,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = filepath.Base(os.Args[0])
 	app.Author = "Docker Machine Contributors"
-	app.Email = "https://github.com/docker/machine"
+	app.Email = "https://github.com/michalmedvecky/machine"
 
 	app.Commands = commands.Commands
 	app.CommandNotFound = cmdNotFound

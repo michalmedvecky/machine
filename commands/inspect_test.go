@@ -3,9 +3,9 @@ package commands
 import (
 	"testing"
 
-	"github.com/docker/machine/commands/commandstest"
-	"github.com/docker/machine/libmachine"
-	"github.com/docker/machine/libmachine/libmachinetest"
+	"github.com/michalmedvecky/machine/commands/commandstest"
+	"github.com/michalmedvecky/machine/libmachine"
+	"github.com/michalmedvecky/machine/libmachine/libmachinetest"
 	"github.com/stretchr/testify/assert"
 )
 

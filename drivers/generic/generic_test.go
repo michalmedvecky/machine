@@ -3,7 +3,7 @@ package generic
 import (
 	"testing"
 
-	"github.com/docker/machine/libmachine/drivers"
+	"github.com/michalmedvecky/machine/libmachine/drivers"
 	"github.com/stretchr/testify/assert"
 )
 

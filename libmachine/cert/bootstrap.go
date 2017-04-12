@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnutils"
+	"github.com/michalmedvecky/machine/libmachine/auth"
+	"github.com/michalmedvecky/machine/libmachine/log"
+	"github.com/michalmedvecky/machine/libmachine/mcnutils"
 )
 
 func BootstrapCertificates(authOptions *auth.Options) error {

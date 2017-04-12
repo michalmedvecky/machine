@@ -3,15 +3,15 @@ package commands
 import (
 	"testing"
 
-	"github.com/docker/machine/commands/commandstest"
-	"github.com/docker/machine/drivers/fakedriver"
-	"github.com/docker/machine/libmachine"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/host"
-	"github.com/docker/machine/libmachine/libmachinetest"
-	"github.com/docker/machine/libmachine/ssh"
-	"github.com/docker/machine/libmachine/ssh/sshtest"
-	"github.com/docker/machine/libmachine/state"
+	"github.com/michalmedvecky/machine/commands/commandstest"
+	"github.com/michalmedvecky/machine/drivers/fakedriver"
+	"github.com/michalmedvecky/machine/libmachine"
+	"github.com/michalmedvecky/machine/libmachine/drivers"
+	"github.com/michalmedvecky/machine/libmachine/host"
+	"github.com/michalmedvecky/machine/libmachine/libmachinetest"
+	"github.com/michalmedvecky/machine/libmachine/ssh"
+	"github.com/michalmedvecky/machine/libmachine/ssh/sshtest"
+	"github.com/michalmedvecky/machine/libmachine/state"
 	"github.com/stretchr/testify/assert"
 )
 

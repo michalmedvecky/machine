@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/machine/commands/mcndirs"
+	"github.com/michalmedvecky/machine/commands/mcndirs"
 )
 
 func TestStorePathSetCorrectly(t *testing.T) {
